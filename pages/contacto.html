@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+    <div class="offcanvas-body">
+      <ul class="navbar-nav flex-grow-1 justify-content-between Barra">
+        <li class="nav-item"><a class="nav-link" href="../index.html">
+            <img width="65px" src="../assets/img/paw.png" alt="">
+          </a></li>
+        <li class="nav-item"><a class="nav-link" href="../index.html"> <img
+              style="margin-right: 12px; margin-bottom: 2px;" width="25px" src="../assets/img/paws.png" alt="">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="../pages/informacion.html"> <img
+              style="margin-right: 12px; margin-bottom: 2px;" width="25px" src="../assets/img/paws.png" alt="">Sobre
+            Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/productos.html"> <img
+              style="margin-right: 12px; margin-bottom: 2px;" width="25px" src="../assets/img/paws.png"
+              alt="">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/login.html"> <img
+              style="margin-right: 12px; margin-bottom: 2px;" width="25px" src="../assets/img/paws.png" alt="">Mi
+            Portal</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/contacto.html"> <img
+              style="margin-right: 12px; margin-bottom: 2px;" width="25px" src="../assets/img/paws.png"
+              alt="">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/productos.html">
+            <svg class="bi" style="fill: rgba(255, 255, 255, 0.55);" width="24" height="24">
+              <use xlink:href="#cart"></use>
+            </svg>
+          </a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container marketing py-5">
+      <div class="row featurette mtP">
+        <div class="col-md-4">
+          <h2 class="featurette-heading fw-normal text-black">Contacta con nosotros!</h2>
+          <p class="lead text-black">Te garantizamos que te responderemos en menos de 24 horas laborables. En caso que
+            quieras una manera directa para contactar con nosotros, puedes hacerlo al siguiente teléfono de Atención
+            Telefónica Gratuita +54 911-7143-3244
+          </p>
+          <p class="lead text-black"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-geo-alt-fill mb-1" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg> Cabildo 3200 , CABA, Buenos Aires <br> paw_store@gmail.com</p>
+        </div>
+        <div class=" container col-md-7 py-9 formulario1">
+          <div class="contacto">
+            <form class="formularioC" id="formulario">
+              <label for="nombre" class="">
+                <input type="text" id="nombre" name="nombre" class="form-control " placeholder="Nombre*" required>
+              </label>
+              <br>
+              <label for="apellido">
+                <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Apellido*" required>
+              </label>
+              <br>
+              <label for="email">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu email*"
+                  required>
+              </label>
+              <br>
+              <label for="comentario">
+                <textarea name="comentario" id="comentario" cols="40" rows="10" class="form-control"
+                  placeholder="Mensaje*"></textarea>
+              </label>
+              <br>
+              <div class="text-center">
+                <button type="submit" onclick="mensaje()" class="enviar btn btn-primary">Enviar</button>
+                <button class="btn btn-secondary" type="reset" id="reset"> Borrar Datos</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner perro -->
+
+    <div class="containerColor">
+      <div class="container">
+        <div class="row featurette">
+          <div class="row featurette py-1">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal text-black">¡Síguenos en Redes Sociales!</h2>
+              <p class="lead text-black"> En nuestras redes sociales podras encontrar claves para sus cuidados,
+                información sobre talleres, los mejores tips para escapadas,los mejores productos. Busca las cuentas
+                oficiales de Paw store en Facebook e Instagram y ¡no te pierdas nada!</p>
+              <p><a class="btn btn-lg btn-primary" href="https://es-la.facebook.com/">Descubrelo > </a></p>
+            </div>
+            <div class="col-md-5">
+              <img class="rounded-1 mtI" width="300px" height="300px"
+                src="https://www.pedigree.com.ar/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf1506/files/2022-10/hero-8-dog.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+
+  <footer class="container py-5 bg-black footerMar">
+    <div class="row">
+      <div class="col-12 col-md">
+        <small class="d-block mb-3 text-body-secondary">Paw store-2023</small>
+      </div>
+      <div class="col-7 col-md">
+        <h5>Nosotros</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Nuestras
+              sucursales</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Quienes somos</a>
+          </li>
+          <li><a class="link-secondary text-decoration-none" href="#">Trabaja con
+              nosotros</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Contacto</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Club Pawstore</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Información</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Promociones
+              bancarias</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Delivery</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Servicios</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Terminos y
+              condiciones</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Clientes</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Mis ordenes</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Me Arrepenti</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Solicitud de
+              cancelación</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Seguinos</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none"
+              href="https://www.youtube.com/?hl=ES&themeRefresh=1">Youtube</a></li>
+          <li><a class="link-secondary text-decoration-none" href="https://www.instagram.com/">Instagram</a></li>
+          <li><a class="link-secondary text-decoration-none" href="https://es-la.facebook.com/">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="../js/contacto.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

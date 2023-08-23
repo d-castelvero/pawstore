@@ -1,0 +1,51 @@
+.form-control {
+  margin-top: 25px;
+  width: 300px
+}
+
+form {
+  margin-top: 50px;
+}
+
+.centerImg {
+  margin-left: 153px;
+}
+
+.formulario {
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 450px;
+  height: 450px;
+  padding: 30px 30px;
+  background: #eeeeeeb6;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-radius: 20px;
+
+}
+
+.botones {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  margin: 0 auto;
+}
